@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Online Shop</h1>
+
+<h2>Add User</h2>
+<form action="/add_user" method="post">
+    ID: <input type="text" name="id"><br>
+    Name: <input type="text" name="name"><br>
+    <button type="submit">Add User</button>
+</form>
+
+<h2>Add Order</h2>
+<form action="/add_order" method="post">
+    Order ID: <input type="text" name="order_id"><br>
+    User ID: <input type="text" name="user_id"><br>
+    Total: <input type="text" name="total"><br>
+    Status: <input type="text" name="status"><br>
+    <button type="submit">Add Order</button>
+</form>
+
+<br>
+
+<a href="/users">View Users</a><br>
+<a href="/orders">View Orders</a>
+
+</body>
+</html>

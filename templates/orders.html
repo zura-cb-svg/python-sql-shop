@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Orders</h1>
+
+<ul>
+{% for order in orders %}
+    <li>
+        User: {{ order[0] }},
+        Total: {{ order[1] }},
+        Status: {{ order[2] }}
+    </li>
+{% endfor %}
+</ul>
+
+<a href="/">⬅ Back</a>
+
+</body>
+</html>
