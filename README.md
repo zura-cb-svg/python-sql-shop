@@ -1,68 +1,63 @@
-# Online Shop Web App
+# 🛒 Online Shop Web App
 
-This is a simple full-stack web application built with Python, Flask, and SQLite.
+This is a simple backend web application built with **Python, Flask, and SQLite**.
 
-The project started as a CLI application and was later upgraded into a web-based system with a basic user interface.
+## 🚀 Features
 
-## Features
+- Add users
+- Add orders
+- View users
+- View orders
+- Update users
+- Delete users and orders
+- Search orders by status
 
-* Add users
-* Add orders
-* View users
-* View orders
-* Delete users
-* Basic form validation
-* Simple web interface (HTML + CSS)
+## 🛠️ Tech Stack
 
-## Tech Stack
+- Python
+- Flask
+- SQLite
+- HTML (basic templates)
+- CSS
 
-* Python
-* Flask
-* SQLite
-* HTML
-* CSS
+## 🧠 What I Learned
 
-## How to Run
+- How web apps work (Browser → Flask → Database)
+- Handling forms with `request.form` and `request.args`
+- Difference between GET and POST requests
+- Writing SQL queries (SELECT, INSERT, UPDATE, DELETE)
+- Connecting Flask with a database
+- Building full CRUD functionality
+- Implementing search/filter features
+
+## 🤖 AI Usage
+
+AI tools were used mainly for:
+- Basic HTML structure and styling
+- Understanding some concepts faster
+
+Most of the backend logic (Flask routes, database functions, and application flow) was written and understood by me.
+
+## ▶️ How to Run
 
 1. Clone the repository
-2. Make sure you have Python installed
+2. Make sure Python is installed
 3. Install Flask:
 
-   ```
-   pip install flask
-   ```
+pip install flask
+
 4. Run the app:
 
-   ```
-   python app.py
-   ```
+python app.py
+
 5. Open in browser:
 
-   ```
-   http://127.0.0.1:5000/
-   ```
+http://127.0.0.1:5000/
 
-## Project Structure
+## 📌 Description
 
-* `main.py` → database logic (queries, functions)
-* `app.py` → Flask routes and backend logic
-* `templates/` → HTML files
-* `static/` → CSS styles
-* `database.db` → SQLite database
-
-## Description
-
-This project simulates a simple backend system for managing users and orders. It demonstrates how a CLI-based application can be transformed into a web application using Flask.
-
-## Notes
-
-Some parts of the project were developed with the help of AI tools, especially for UI (HTML/CSS) and structuring improvements. The core logic and understanding were developed through hands-on learning and iteration.
-
-## Learning Goals
-
-* Understand backend development with Flask
-* Work with databases (SQLite)
-* Learn how web requests interact with Python code
-* Practice building a simple full-stack application
+This project simulates a simple backend system for managing users and orders. It demonstrates core backend development concepts and serves as a foundation for more advanced projects.
 
 ---
+
+🚀 Next Step: Building a Task Manager App from scratch
